@@ -12,3 +12,6 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello ISIS3710"
+      - name: Display Date
+        run: |
+          echo $(date '+%Y/%m/%d %H:%M:%S')
